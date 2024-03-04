@@ -14,6 +14,7 @@ const PostsList = ({ status }) => {
   const [isModalDeleteOpen, setIsModalDeleteOpen] = useState(false);
   const [isModalUploadOpen, setIsModalUploadOpen] = useState(false);
   const [isModalHiddenOpen, setIsModalHiddenOpen] = useState(false);
+  const [isModalUnHiddenOpen, setIsModalUnHiddenOpen] = useState(false);
   const [selectId, setSelectId] = useState("");
 
   const loadData = () => {
@@ -46,6 +47,10 @@ const PostsList = ({ status }) => {
     setIsModalHiddenOpen(true);
     setSelectId(id);
   };
+  const showModalUnHidden = (id) => {
+    setIsModalUnHiddenOpen(true);
+    setSelectId(id);
+  };
 
   const handleCancel = () => {
     setIsModalDeleteOpen(false);
@@ -66,6 +71,7 @@ const PostsList = ({ status }) => {
         });
         setIsModalUploadOpen(false);
         setIsModalHiddenOpen(false);
+        setIsModalUnHiddenOpen(false);
         loadData();
       })
       .catch((error) => {
@@ -99,6 +105,14 @@ const PostsList = ({ status }) => {
         open={isModalHiddenOpen}
         okType="danger"
         onOk={() => handleOkUpload(2)}
+        onCancel={handleCancel}
+        width={400}
+      ></Modal>
+      <Modal
+        title="Confirm unhidden?"
+        open={isModalUnHiddenOpen}
+        okType="danger"
+        onOk={() => handleOkUpload(1)}
         onCancel={handleCancel}
         width={400}
       ></Modal>
@@ -150,13 +164,21 @@ const PostsList = ({ status }) => {
                     >
                       Upload
                     </Button>
-                  ) : (
+                  ) : item.status === 1 ? (
                     <Button
                       onClick={() => showModalHidden(item.id)}
                       className="w-[70%] bg-blue-500"
                       type="primary"
                     >
                       Hidden
+                    </Button>
+                  ) : (
+                    <Button
+                      onClick={() => showModalUnHidden(item.id)}
+                      className="w-[70%] bg-blue-500"
+                      type="primary"
+                    >
+                      Un hidden
                     </Button>
                   )}
                 </div>
