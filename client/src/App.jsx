@@ -17,6 +17,7 @@ import PostsList from "./pages/admin/PostsList";
 import CreatePost from "./pages/admin/CreatePost";
 import CreateBuy from "./pages/admin/CreateBuy";
 import PostDetail from "./pages/user/PostDetail";
+import EditPost from "./pages/admin/EditPost";
 
 function App() {
   const location = useLocation();
@@ -47,6 +48,7 @@ function App() {
           <Route path="posted-list" element={<PostsList status={1} />} />
           <Route path="posts-hidden" element={<PostsList status={2} />} />
           <Route path="create-post" element={<CreatePost />} />
+          <Route path="edit-post/:id" element={<EditPost />} />
           <Route path="create-buy" element={<CreateBuy />} />
         </Route>
       </Routes>

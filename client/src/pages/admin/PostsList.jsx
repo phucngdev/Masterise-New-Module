@@ -6,9 +6,11 @@ import {
   uploadPost,
 } from "../../service/post.service";
 import { Button, Image, Modal, message } from "antd";
+import { useNavigate } from "react-router-dom";
 
 const PostsList = ({ status }) => {
   const dispatch = useDispatch();
+  const navigate = useNavigate();
   const dataPost = useSelector((state) => state.post.data);
   const [filterStatus, setFilterStatus] = useState();
   const [isModalDeleteOpen, setIsModalDeleteOpen] = useState(false);
@@ -82,6 +84,10 @@ const PostsList = ({ status }) => {
       });
   };
 
+  const handleEdit = (id) => {
+    navigate(`/admin/edit-post/${id}`);
+  };
+
   return (
     <>
       <Modal
@@ -146,7 +152,11 @@ const PostsList = ({ status }) => {
                   {item.author}
                 </div>
                 <div className="w-[20%] flex flex-col gap-2 items-center justify-around">
-                  <Button className="w-[70%] " type="default">
+                  <Button
+                    onClick={() => handleEdit(item.id)}
+                    className="w-[70%] "
+                    type="default"
+                  >
                     Edit
                   </Button>
                   <Button

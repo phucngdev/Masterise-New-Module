@@ -25,8 +25,8 @@ const Home = () => {
           </video>
           <div className="flex items-center justify-center relative px-10 py-5 rounded-full bg-blue-100 bg-opacity-15 ">
             <h3 className="text-[60px] font-medium text-center text-white max-w-[530px]">
-              A dream recidense at our{" "}
-              <span className="text-[#cbe040]">jungle house</span>.
+              Unlock Your Dream Home{" "}
+              <span className="text-[#cbe040]">with Us</span>.
             </h3>
             <div className="uppercase px-5 py-1 text-white rounded-full bg-blue-200 bg-opacity-70 absolute top-[-7%] rotate-3 left-[50%] translate-x-[-50%]">
               We have an offer for you!
