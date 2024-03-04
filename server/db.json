@@ -1,0 +1,208 @@
+{
+  "users": [
+    {
+      "id": "c4e9918f-d2bb-43ba-9181-186503be8f1a",
+      "email": "1@gmail.com",
+      "password": "1",
+      "type": "user",
+      "createdTime": "21:10:09 25/2/2024"
+    },
+    {
+      "id": "c4e9918f-d2bb-43ba-9181-186503beasdd",
+      "email": "1",
+      "password": "1",
+      "type": "admin",
+      "createdTime": "21:10:09 25/2/2024"
+    },
+    {
+      "id": "d6fa5d51-d4c2-44bf-b893-1d2074761d1f",
+      "email": "tu",
+      "password": "1",
+      "type": "user",
+      "createdTime": "22:08:44 25/2/2024"
+    },
+    {
+      "id": "94f1c3a7-dfb2-42b7-b772-e162744dd291",
+      "email": "2@gmail.com",
+      "password": "1",
+      "type": "user",
+      "createdTime": "17:38:12 3/3/2024"
+    }
+  ],
+  "posts": [
+    {
+      "id": "2ec117d9-52fe-45ce-aeca-674bbb38d10b",
+      "cover_img": "https://firebasestorage.googleapis.com/v0/b/masteriseland-24c21.appspot.com/o/files%2Fbv01.png?alt=media&token=5b0ec238-1594-47cc-bcb2-15690a49fd8f",
+      "content": "<p>14-11-2023</p><p>Sự kiện ra mắt chính thức Tòa Lake - tòa tháp đầu tiên của Grand Marina, Saigon - đánh dấu việc Khu căn hộ hàng hiệu Marriott Residences đầu tiên tại Việt Nam chính thức đi vào hoạt động.</p><figure class=\"image\"><img style=\"aspect-ratio:1920/1365;\" src=\"https://firebasestorage.googleapis.com/v0/b/masteriseland-24c21.appspot.com/o/files%2Fbv01.png?alt=media&amp;token=c439be45-c0af-460a-8895-038b749208b4\" width=\"1920\" height=\"1365\" alt=\"Đại diện Marriott International và Masterise Homes tiến hành nghi thức cắt băng khai trương Khu căn hộ hàng hiệu Marriott tại tòa Lake, Grand Marina, Saigon. \"><figcaption><i>Đại diện Marriott International và Masterise Homes tiến hành nghi thức cắt băng khai trương Khu căn hộ hàng hiệu Marriott tại tòa Lake, Grand Marina, Saigon.&nbsp;</i></figcaption></figure><p>Ngày 14/11/2023, Khu căn hộ hàng hiệu Marriott tại tòa Lake, Grand Marina, Saigon đã chính thức khai trương tại số 2 đường Tôn Đức Thắng, phường Bến Nghé, Quận 1, TP.HCM. Lễ khai trương đánh dấu sự xuất hiện của Khu căn hộ hàng hiệu Marriott Residences đầu tiên tại Việt Nam. Sự kiện chào đón các lãnh đạo cấp cao của Masterise Homes và Marriott International, cũng như các đại diện từ Tổng lãnh sự quán Mỹ tại Việt Nam và Phòng Thương mại Mỹ tại Việt Nam.</p><figure class=\"image\"><img style=\"aspect-ratio:1920/1365;\" src=\"https://firebasestorage.googleapis.com/v0/b/masteriseland-24c21.appspot.com/o/files%2Fbv01-2.png?alt=media&amp;token=53096e09-4731-45d9-b1bb-c8cd9cb7b33d\" width=\"1920\" height=\"1365\"><figcaption><i>Đội ngũ Marriott International đã chính thức tiếp quản và vận hành Khu căn hộ hàng hiệu Marriott tại tòa Lake, Grand Marina, Saigon.&nbsp;</i></figcaption></figure><p>Lake là tòa đầu tiên hoàn thành trong quy hoạch của Grand Marina, Saigon - khu phức hợp bất động sản hàng hiệu Marriott lớn nhất thế giới với quy mô 10 hecta do Masterise Homes phát triển. Dự án gồm 4 tòa tháp căn hộ hàng hiệu Marriott và JW Marriott, một tòa tháp văn phòng kết hợp trung tâm thương mại cao cấp và các hạng mục cảnh quan ven sông được thiết kế ấn tượng. Tọa lạc trên mảnh đất nơi từng là xưởng đóng tàu Ba Son với lịch sử hơn 200 năm tuổi, dự án sở hữu vị trí vừa độc tôn nhờ bề dày lịch sử hiếm có, vừa quyền lực bởi sự khan hiếm của đất vàng trung tâm cho các dự án căn hộ mới.&nbsp;</p><figure class=\"image\"><img style=\"aspect-ratio:1920/1365;\" src=\"https://firebasestorage.googleapis.com/v0/b/masteriseland-24c21.appspot.com/o/files%2Fbv01-3.png?alt=media&amp;token=e187afca-9df1-400b-8b49-27fcb838521a\" width=\"1920\" height=\"1365\"><figcaption><i>Tòa Lake đã chính thức đi vào vận hành, nổi bật giữa trung tâm quận 1, ven sông Sài Gòn.</i></figcaption></figure><p>Di sản của mảnh đất Ba Son đã truyền cảm hứng cho thiết kế kiến trúc của công viên Lá Sen - một không gian cảnh quan công cộng trong quy hoạch của Grand Marina, Saigon. Các kiến trúc sư đã lưu giữ những nét đẹp lịch sử của xưởng đóng tàu, của dòng chảy thịnh vượng của thành phố trong bối cảnh cuộc sống hiện đại để công viên Lá Sen trở thành điểm kết nối giữa tuyệt tác thiên nhiên và kiệt tác nhân tạo, giữa quá khứ, hiện tại và tương lai. Đây dự kiến sẽ là một tâm điểm của quảng trường mới ven sông của thành phố, giữa nhịp sống nhộn nhịp văn hóa – thương mại sôi động của đô thị hiện đại. Nhờ yếu tố kiến trúc độc đáo và và vị trí độc tôn đó, Grand Marina, Saigon góp phần nâng tầm diện mạo ven sông của thành phố, làm phong phú thêm những giá trị văn hóa xã hội, kết nối với các danh thắng lớn như Nhà Hát TP.HCM, Nhà thờ Đức Bà. Kết nối của dự án càng tối ưu hơn khi lối vào ga Ba Son của tuyến metro số 1 nằm ngay trong khuôn viên khu phức hợp Grand Marina, Saigon, đưa cả thành phố vào trong bán kính di chuyển thuận tiện. &nbsp;</p><figure class=\"image\"><img style=\"aspect-ratio:1920/1365;\" src=\"https://firebasestorage.googleapis.com/v0/b/masteriseland-24c21.appspot.com/o/files%2Fbv01-4.png?alt=media&amp;token=4f8f0f9e-3d68-4f79-9dda-eb95e84b8cc3\" width=\"1920\" height=\"1365\"><figcaption><i>Vị trí đắc địa của Tòa Lake ven sông Sài Gòn.&nbsp;</i></figcaption></figure><p>Các căn hộ từ một đến ba phòng ngủ tại tòa Lake được trang bị công nghệ căn hộ thông minh (smart home) hiện đại nhất, cùng các không gian tiện ích trải dài trên ba tầng. Tại tầng trệt là một cổng vào rộng thoáng dẫn tới sảnh chính với thiết kế sang trọng và ấn tượng, khu vực hồ bơi gồm một hồ lớn nổi bật với logo Marriott và một hồ trẻ em liền kề, bao quanh bởi cây xanh và các ghế dài tắm nắng. Tầng 1 được thiết kế với một loạt tiện ích như phòng vui chơi trẻ em được thiết kế với các khu vực hiện đại phát triển thể chất, tinh thần và sự sáng tạo, phòng lounge lớn để cư dân thư giãn, phòng thư viện yên tĩnh, phòng họp sang trọng, và rạp chiếu phim sức chứa 11 ghế được kết nối với phòng ẩm thực để cư dân tổ chức các buổi tụ họp thân mật. Các tiện ích giải trí mở rộng lên tầng thượng 46, với một bể bơi ngoài trời có mái che, bể sục, khu BBQ với dãy bàn tiệc, phòng gym và đặc biệt nhất là quang cảnh tuyệt đẹp từ tầng 46 bao quát toàn cảnh TP.HCM, sông Sài Gòn và Thảo Cầm Viên.</p><figure class=\"image\"><img style=\"aspect-ratio:1920/1365;\" src=\"https://firebasestorage.googleapis.com/v0/b/masteriseland-24c21.appspot.com/o/files%2Fbv01-5.png?alt=media&amp;token=78d4e615-e5b5-4ca7-9d76-d5f8a02ccecb\" width=\"1920\" height=\"1365\"></figure><figure class=\"image\"><img style=\"aspect-ratio:1920/1365;\" src=\"https://firebasestorage.googleapis.com/v0/b/masteriseland-24c21.appspot.com/o/files%2Fbv01-6.png?alt=media&amp;token=8624b4c2-e199-4517-9f50-05dae548f84a\" width=\"1920\" height=\"1365\"><figcaption><i>Hệ tiện ích trải dài trên 3 tầng với bể bơi ngoài trời, phòng gym và nhiều tiện ích chuẩn Marriott khác.</i></figcaption></figure><p>&nbsp;</p>",
+      "title": "KHU CĂN HỘ HÀNG HIỆU MARRIOTT RESIDENCES ĐẦU TIÊN TẠI VIỆT NAM CHÍNH THỨC KHAI TRƯƠNG TẠI GRAND MARINA, SAIGON",
+      "description": "Sự kiện ra mắt chính thức Tòa Lake - tòa tháp đầu tiên của Grand Marina, Saigon - đánh dấu việc Khu căn hộ hàng hiệu Marriott Residences đầu tiên tại Việt Nam chính thức đi vào hoạt động.",
+      "author": "phucngdev",
+      "view": 0,
+      "like": 0,
+      "comment": [],
+      "status": 2,
+      "created_at": "22:11:51 3/3/2024"
+    },
+    {
+      "id": "f95b2ab4-521a-4208-9dc2-aec93dac0bc8",
+      "cover_img": "https://firebasestorage.googleapis.com/v0/b/masteriseland-24c21.appspot.com/o/files%2Fbv02-1.png?alt=media&token=a7d76bbf-0c25-4b78-9064-90844c4bef71",
+      "content": "<p>09-11-2023</p><p>Trong bối cảnh thị trường bất động sản vẫn còn nhiều khó khăn, nguồn cung căn hộ ngày càng khan hiếm thì việc khách hàng được bàn giao căn hộ đúng tiến độ, tại các dự án của các chủ đầu tư uy tín chính là “điểm nhấn” đáng chú ý trên thị trường. Điều này chứng tỏ nỗ lực của chủ đầu tư nói chung và sức hút của riêng dự án Masteri West Heights nói riêng đối với các khách hàng có nhu cầu ở thực.</p><p>&nbsp;</p><figure class=\"image\"><img style=\"aspect-ratio:1920/1365;\" src=\"https://firebasestorage.googleapis.com/v0/b/masteriseland-24c21.appspot.com/o/files%2Fbv02-2.png?alt=media&amp;token=345e2fdc-4770-4274-b943-b2f4ff1a4561\" width=\"1920\" height=\"1365\"><figcaption><i>Không gian bên ngoài dự án Masteri West Heights tại Tây Mỗ, Smart City (Hà Nội)</i></figcaption></figure><p>&nbsp;</p><p>Tọa lạc tại khu vực trung tâm Đại đô thị Smart City, phía Tây Hà Nội, sau thời gian nỗ lực triển khai xây dựng, bất chấp những khó khăn chung của thị trường bất động sản hay những tín hiệu xấu từ kinh tế vĩ mô, dự án Masteri West Heights đã cán đích đúng tiến độ, đã và đang tiếp tục chào đón các cư dân về nhận nhà mới.</p><p><br>Theo ghi nhận của phóng viên, hiện nay hàng trăm cư dân đã nhận bàn giao căn hộ và sẵn sàng an cư tại tổ ấm mới. Háo hức trong ngày cắt băng rôn nhận căn hộ, chị Trần Thu Hương (Cầu Giấy, Hà Nội) chia sẻ: “Mặc dù còn độc thân nhưng tôi chọn căn hộ 2PN để thuận tiện khi người thân và gia đình đến chơi. Trước khi quyết định mua căn hộ tại Masteri West Heights, bản thân tôi cũng đã trải nghiệm sống tại một số phân khu cao cấp khác, nhưng tôi thấy Masteri West Heights hội tụ đầy đủ các yếu tố mà các phân khu khác không có được như câu chuyện hầm để xe, phòng tập gym riêng. Đặc biệt là giải quyết được vấn đề bể bơi quá tải trong dịp hè, bởi mỗi tòa có 01 bể bơi trên tầng thượng, cùng với bể bơi nội khu lớn ngoài trời. Đây là điều kiện lý tưởng để tôi và gia đình tụ họp, trải nghiệm một cuộc sống tốt nhất có thể”.</p><p><br>Trao đổi với PV, đại diện chủ đầu tư dự án Masteri West Heights chia sẻ: “Tất cả các dự án của Masterise Homes đều hướng tới sự chỉn chu, bài bản và chuyên nghiệp từ những chi tiết nhỏ nhất, đồng thời luôn lấy khách hàng làm trọng tâm. Từ đó, chúng tôi luôn lựa chọn việc hợp tác với những đối tác uy tín hàng đầu thế giới về thiết kế kiến trúc, nội thất và cảnh quan để mang đến những trải nghiệm trọn vẹn nhất cho cư dân”.</p><p>&nbsp;</p><figure class=\"image\"><img style=\"aspect-ratio:1920/1365;\" src=\"https://firebasestorage.googleapis.com/v0/b/masteriseland-24c21.appspot.com/o/files%2Fbv02-3.png?alt=media&amp;token=cf378fb4-74ec-478b-a984-d6799266ab4c\" width=\"1920\" height=\"1365\"><figcaption><i>Một khách hàng cắt băng rôn nhận nhà tại dự án Masteri West Heights.</i></figcaption></figure><p>&nbsp;</p><p>&nbsp;</p><p>Sau khi nhận bàn giao nhà, những cư dân của Masteri West Heights sẽ trải nghiệm dịch vụ quản lý vận hành đến từ Masterise Property Management - một thành viên của Masterise Group. \"Với triết lý \"Khách hàng là trọng tâm\", Masterise Property Management sẽ nỗ lực mang đến dịch vụ chuyên nghiệp và tận tâm với tính cá nhân hóa cao theo tiêu chuẩn quốc tế\" - vị đại diện này cho biết thêm.&nbsp;<br>&nbsp;</p><p><strong>Một số hình ảnh thực tế khác tại dự án Masteri West Heights:</strong></p><p>&nbsp;</p><figure class=\"image\"><img style=\"aspect-ratio:1920/1365;\" src=\"https://firebasestorage.googleapis.com/v0/b/masteriseland-24c21.appspot.com/o/files%2Fbv02-4.png?alt=media&amp;token=42455256-612c-42ef-9547-d57b463fa4cb\" width=\"1920\" height=\"1365\"></figure>",
+      "title": "MASTERI WEST HEIGHTS RỘN RÀNG BÀN GIAO, CƯ DÂN SẴN SÀNG AN CƯ",
+      "description": "Trong bối cảnh thị trường bất động sản vẫn còn nhiều khó khăn, nguồn cung căn hộ ngày càng khan hiếm thì việc khách hàng được bàn giao căn hộ đúng tiến độ, tại các dự án của các chủ đầu tư uy tín chín",
+      "author": "phucngdev deptrai",
+      "view": 0,
+      "like": 0,
+      "comment": [],
+      "status": 0,
+      "created_at": "15:38:03 4/3/2024"
+    }
+  ],
+  "buy": [],
+  "categoty_buy": [
+    {
+      "id": "1",
+      "name": "Houses",
+      "type": [
+        {
+          "id": 11,
+          "name": "Villa",
+          "value": 11,
+          "createdTime": "21:20:00 12/12/1212"
+        },
+        {
+          "id": 12,
+          "name": "Townhouse",
+          "value": 12,
+          "createdTime": "21:20:00 12/12/1212"
+        },
+        {
+          "id": 13,
+          "name": "Land house",
+          "value": 13,
+          "createdTime": "21:20:00 12/12/1212"
+        }
+      ],
+      "created_at": "21:20:00 12/12/1212"
+    },
+    {
+      "id": "2",
+      "name": "Apartments",
+      "type": [
+        {
+          "id": 21,
+          "name": "Luxury apartment",
+          "value": 21,
+          "createdTime": "21:20:00 12/12/1212"
+        },
+        {
+          "id": 22,
+          "name": "Studio apartment",
+          "value": 22,
+          "createdTime": "21:20:00 12/12/1212"
+        },
+        {
+          "id": 23,
+          "name": "Serviced apartment",
+          "value": 23,
+          "createdTime": "21:20:00 12/12/1212"
+        },
+        {
+          "id": 24,
+          "name": "Penthouse apartment",
+          "value": 24,
+          "createdTime": "21:20:00 12/12/1212"
+        }
+      ],
+      "created_at": "21:20:00 12/12/1212"
+    }
+  ],
+  "categoty_rent": [
+    {
+      "id": "1",
+      "name": "Houses",
+      "type": [
+        {
+          "id": 11,
+          "name": "Villa",
+          "value": 11,
+          "createdTime": "21:20:00 12/12/1212"
+        },
+        {
+          "id": 12,
+          "name": "Townhouse",
+          "value": 12,
+          "createdTime": "21:20:00 12/12/1212"
+        },
+        {
+          "id": 13,
+          "name": "Land house",
+          "value": 13,
+          "createdTime": "21:20:00 12/12/1212"
+        }
+      ],
+      "created_at": "21:20:00 12/12/1212"
+    },
+    {
+      "id": "2",
+      "name": "Apartments",
+      "type": [
+        {
+          "id": 21,
+          "name": "Luxury apartment",
+          "value": 21,
+          "createdTime": "21:20:00 12/12/1212"
+        },
+        {
+          "id": 22,
+          "name": "Studio apartment",
+          "value": 22,
+          "createdTime": "21:20:00 12/12/1212"
+        },
+        {
+          "id": 23,
+          "name": "Serviced apartment",
+          "value": 23,
+          "createdTime": "21:20:00 12/12/1212"
+        },
+        {
+          "id": 24,
+          "name": "Penthouse apartment",
+          "value": 24,
+          "createdTime": "21:20:00 12/12/1212"
+        },
+        {
+          "id": 25,
+          "name": "Office",
+          "value": 25,
+          "createdTime": "21:20:00 12/12/1212"
+        }
+      ],
+      "created_at": "21:20:00 12/12/1212"
+    },
+    {
+      "id": "3",
+      "name": "Camping",
+      "type": [
+        {
+          "id": 31,
+          "name": "Outdoor camping area",
+          "value": 31,
+          "createdTime": "21:20:00 12/12/1212"
+        },
+        {
+          "id": 32,
+          "name": "Camping resort",
+          "value": 32,
+          "createdTime": "21:20:00 12/12/1212"
+        },
+        {
+          "id": 33,
+          "name": "Eco-tourism area",
+          "value": 33,
+          "createdTime": "21:20:00 12/12/1212"
+        }
+      ],
+      "created_at": "21:20:00 12/12/1212"
+    }
+  ]
+}
