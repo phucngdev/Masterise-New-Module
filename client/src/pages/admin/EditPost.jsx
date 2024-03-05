@@ -14,8 +14,8 @@ import { useParams } from "react-router-dom";
 const EditPost = () => {
   const dispatch = useDispatch();
   const dataPost = useSelector((state) => state.post.userEdit);
-  const [imageUpload, setImageUpload] = useState("");
-  const [contentChange, setContentChange] = useState(null);
+  const [imageUpload, setImageUpload] = useState(dataPost?.cover_img);
+  const [contentChange, setContentChange] = useState(dataPost?.content);
   const { id } = useParams();
 
   const loadData = () => {
@@ -49,19 +49,20 @@ const EditPost = () => {
         status: 0, // dự định: 0 đã tạo, 1 đã đăng, 2 đã ẩn
         created_at: new Date().toLocaleString(),
       };
-      dispatch(uploadPost(newPost));
+      //   dispatch(uploadPost(newPost));
       message.success({
         content: "Upload successful!",
       });
-      resetForm();
-      setImageUpload("");
-      setContentChange(null);
+      console.log(newPost);
+      //   resetForm();
+      //   setImageUpload("");
+      //   setContentChange(null);
     },
   });
   return (
     <>
       <div className="w-full h-[100vh] p-4">
-        <h3 className="text-2xl font-semibold text-black">Create post</h3>
+        <h3 className="text-2xl font-semibold text-black">Edit post</h3>
         <form className="pb-10" onSubmit={formik.handleSubmit}>
           <div className="flex flex-col mt-3">
             <label className="text-lg font-medium" htmlFor="">
@@ -114,7 +115,10 @@ const EditPost = () => {
           </div>
           <div className="flex flex-col mt-3">
             <span className="text-lg font-medium">Content</span>
-            <TextEditor setContentChange={setContentChange}></TextEditor>
+            <TextEditor
+              contentChange={contentChange}
+              setContentChange={setContentChange}
+            ></TextEditor>
           </div>
           <div className="flex justify-between items-center mt-3">
             <div className="flex flex-col w-full">

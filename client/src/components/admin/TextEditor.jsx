@@ -4,7 +4,7 @@ import ClassicEditor from "@ckeditor/ckeditor5-build-classic";
 import { storage } from "../../firebase/config";
 import { getDownloadURL, ref, uploadBytes } from "firebase/storage";
 
-export default function TextEditor({ setContentChange }) {
+export default function TextEditor({ contentChange, setContentChange }) {
   function uploadAdapter(loader) {
     return {
       upload: () => {
@@ -50,6 +50,7 @@ export default function TextEditor({ setContentChange }) {
         onReady={(editor) => {}}
         onBlur={(event, editor) => {}}
         onFocus={(event, editor) => {}}
+        data={contentChange}
         onChange={(event, editor) => {
           setContentChange(editor.getData());
         }}

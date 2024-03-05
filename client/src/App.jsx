@@ -18,6 +18,7 @@ import CreatePost from "./pages/admin/CreatePost";
 import CreateBuy from "./pages/admin/CreateBuy";
 import PostDetail from "./pages/user/PostDetail";
 import EditPost from "./pages/admin/EditPost";
+import PreviewPost from "./pages/admin/PreviewPost";
 
 function App() {
   const location = useLocation();
@@ -49,6 +50,7 @@ function App() {
           <Route path="posts-hidden" element={<PostsList status={2} />} />
           <Route path="create-post" element={<CreatePost />} />
           <Route path="edit-post/:id" element={<EditPost />} />
+          <Route path="preview-post/:id" element={<PreviewPost />} />
           <Route path="create-buy" element={<CreateBuy />} />
         </Route>
       </Routes>

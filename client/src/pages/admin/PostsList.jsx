@@ -6,7 +6,7 @@ import {
   uploadPost,
 } from "../../service/post.service";
 import { Button, Image, Modal, message } from "antd";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const PostsList = ({ status }) => {
   const dispatch = useDispatch();
@@ -135,7 +135,10 @@ const PostsList = ({ status }) => {
             {statusFilter?.map((item, index) => (
               <div key={item.id} className="h-[200px] flex items-center border">
                 <div className="w-[5%] text-center">{index + 1}</div>
-                <div className="w-[55%] border-x p-2">
+                <Link
+                  to={`/admin/preview-post/${item.id}`}
+                  className="w-[55%] border-x p-2"
+                >
                   <div className="flex items-center gap-3">
                     <img
                       className="w-[40%] h-[180px] rounded-xl object-cover"
@@ -147,7 +150,7 @@ const PostsList = ({ status }) => {
                       <p className="text-sm">{item.created_at}</p>
                     </div>
                   </div>
-                </div>
+                </Link>
                 <div className="w-[20%] border-e h-full flex items-center justify-center text-center">
                   {item.author}
                 </div>
@@ -156,6 +159,7 @@ const PostsList = ({ status }) => {
                     onClick={() => handleEdit(item.id)}
                     className="w-[70%] "
                     type="default"
+                    htmlType="button"
                   >
                     Edit
                   </Button>
@@ -163,6 +167,7 @@ const PostsList = ({ status }) => {
                     onClick={() => showModalDelete(item.id)}
                     className="w-[70%] "
                     danger
+                    htmlType="button"
                   >
                     Delete
                   </Button>
@@ -171,6 +176,7 @@ const PostsList = ({ status }) => {
                       onClick={() => showModalUpload(item.id)}
                       className="w-[70%] bg-blue-500"
                       type="primary"
+                      htmlType="button"
                     >
                       Upload
                     </Button>
@@ -179,6 +185,7 @@ const PostsList = ({ status }) => {
                       onClick={() => showModalHidden(item.id)}
                       className="w-[70%] bg-blue-500"
                       type="primary"
+                      htmlType="button"
                     >
                       Hidden
                     </Button>
@@ -187,6 +194,7 @@ const PostsList = ({ status }) => {
                       onClick={() => showModalUnHidden(item.id)}
                       className="w-[70%] bg-blue-500"
                       type="primary"
+                      htmlType="button"
                     >
                       Un hidden
                     </Button>
