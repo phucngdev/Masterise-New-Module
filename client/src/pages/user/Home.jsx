@@ -1,6 +1,7 @@
 import React from "react";
 import bg_home_page_one from "../../../public/bg-home-page-one.jpeg";
 import bg_home_page_two from "../../../public/bg-home-page-two.jpeg";
+import Footer from "../../layout/user/Footer";
 const Home = () => {
   return (
     <>
@@ -125,6 +126,7 @@ const Home = () => {
             </div>
           </div>
         </section>
+        <Footer></Footer>
       </div>
     </>
   );

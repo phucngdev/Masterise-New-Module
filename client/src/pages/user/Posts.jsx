@@ -16,7 +16,7 @@ const Posts = () => {
     loadData();
   }, []);
 
-  const filterData = dataPost.filter((post) => post.status === 1);
+  const filterData = dataPost?.filter((post) => post.status === 1);
 
   return (
     <>
@@ -28,7 +28,7 @@ const Posts = () => {
           </span>
         </div>
         <div className="grid grid-cols-3 gap-6 px-[5%] my-10">
-          {filterData.map((item) => (
+          {filterData?.map((item) => (
             <Link
               to={`/posts/${item.id}`}
               key={item.id}
